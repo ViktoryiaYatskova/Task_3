@@ -550,16 +550,24 @@ div.vine-description input[type="button"] {
 }
 footer {
     height: 250px;
-    padding: 3% 0;
+    padding: 35px 0;
 
     background-color: #94b500;
     color: #344600;
 }
 section.columns {
+    position: relative;
     height: 100%;
     padding-bottom: 3%;
 
     font-size: 0;
+}
+footer>img {
+    position: relative;
+    margin-bottom: -100%;
+    top: -50px;
+    float: right;
+    overflow: visible;
 }
 div.column {
     float: left;
@@ -668,7 +676,8 @@ div.color-vine-data::after,
 div.vine-description>div:last-of-type::before,
 div.vine-description input[type="button"]::after,
 div.vine-description>div:last-of-type::after,
-a .stars::after {
+a .stars::after,
+footer>img::after {
     display: block;
     width: 100%;
     clear: both;
