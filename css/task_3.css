@@ -176,7 +176,7 @@ nav.vine-kind-menu input[type="checkbox"]:checked+label>img {
 nav.vine-kind-menu label>img {
     display: block;
     margin: 0 auto;
-    padding: 1% 12%;
+    padding: 1% 10%;
     width: auto;
     min-height: 55px;
 
@@ -457,11 +457,13 @@ nav.vines-catalog .vine-name {
 
     display: inline-block;
     margin: 0 auto;
-    padding: 0 15%;
+    padding: 0 30px;
+    width: 100px;
     text-align: center;
 
     font-size: 18px;
     font-weight: bold;
+    overflow: visible;
 }
 a:hover .show-by-hover {
     visibility: visible;

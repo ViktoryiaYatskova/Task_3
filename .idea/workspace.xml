@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19642c0b-3d63-47b0-8fa2-bd0cd93f34ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pic/white-wine-sort.png" afterPath="$PROJECT_DIR$/assets/pic/white-wine-sort.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/BHS55__C.AFM" afterPath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/BHS55__C.AFM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/BHS55__C.INF" afterPath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/BHS55__C.INF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Task3.iml" afterPath="$PROJECT_DIR$/.idea/Task3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/bhs55c-webfont.svg" afterPath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/bhs55c-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/bhs55c.svg" afterPath="$PROJECT_DIR$/assets/fonts/ITC Bauhaus Medium Cyrillic/bhs55c.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/DeliciousBold/delicious-bold-webfont.svg" afterPath="$PROJECT_DIR$/assets/fonts/DeliciousBold/delicious-bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/DeliciousRoman/delicious-roman-webfont.svg" afterPath="$PROJECT_DIR$/assets/fonts/DeliciousRoman/delicious-roman-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/fontello/fontello.svg" afterPath="$PROJECT_DIR$/assets/fonts/fontello/fontello.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/task_3.css" afterPath="$PROJECT_DIR$/css/task_3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task3.iws" />
@@ -40,14 +25,14 @@
     <favorites_list name="Task3" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4650259">
+    <splitter split-orientation="horizontal" split-proportion="0.46568954">
       <split-first>
         <leaf>
-          <file leaf-file-name="carusel-driver.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="carusel-driver.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/carusel-driver.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7118644" vertical-offset="84" max-vertical-offset="969">
-                  <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -56,20 +41,20 @@
           <file leaf-file-name="task_3.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/task_3.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="12308">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="12342">
                   <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.153846" vertical-offset="314" max-vertical-offset="3536">
-                  <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.2972028" vertical-offset="204" max-vertical-offset="2176">
+                  <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
                   <folding>
-                    <element signature="tag#aside#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#article#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -79,11 +64,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="task_3.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="task_3.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/task_3.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.58305085" vertical-offset="6080" max-vertical-offset="12308">
-                  <caret line="388" column="0" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+                <state vertical-scroll-proportion="-1.1097285" vertical-offset="7475" max-vertical-offset="12342">
+                  <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -105,9 +90,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/assets/js/carusel-driver.js" />
-        <option value="$PROJECT_DIR$/css/task_3.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/carusel-driver.js" />
+        <option value="$PROJECT_DIR$/css/task_3.css" />
       </list>
     </option>
   </component>
@@ -278,13 +263,18 @@
       <created>1406819542931</created>
       <updated>1406819542931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1-8-2014 changes at work">
+      <created>1406899900124</created>
+      <updated>1406899900124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -299,7 +289,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -321,7 +310,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="31-7-2014 changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="31-7-2014 changes" />
+    <MESSAGE value="1-8-2014 changes at work" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-8-2014 changes at work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -332,7 +322,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3570" max-vertical-offset="3927">
           <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
           <folding>
-            <element signature="tag#aside#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#article#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -345,28 +335,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task_3.css">
+    <entry file="file://$PROJECT_DIR$/js/carusel-driver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="12274">
-          <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.153846" vertical-offset="314" max-vertical-offset="3536">
-          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.2972028" vertical-offset="204" max-vertical-offset="2176">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
-            <element signature="tag#aside#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#article#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/carusel-driver.js">
+    <entry file="file://$PROJECT_DIR$/css/task_3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7118644" vertical-offset="84" max-vertical-offset="969">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        <state vertical-scroll-proportion="-1.1097285" vertical-offset="7475" max-vertical-offset="12342">
+          <caret line="382" column="22" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
           <folding />
         </state>
       </provider>
