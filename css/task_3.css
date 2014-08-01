@@ -57,10 +57,8 @@ input[type='button']:hover, input[type='submit']:hover, label:hover, a:hover {
     cursor: pointer;
 }
 
-header {
-}
 header>div {
-    display: inline-block;
+    display: block;
     margin: 3% 2%;
 
     font-family: BHS55c, Delicious, Calibri, sans-serif;
@@ -98,19 +96,18 @@ nav.header-menu a:nth-of-type(5) {
     float: right;
 }
 
-header::after {
-    display: block;
-    content: "";
-    clear: both;
-}
 .award {
     position: relative;
     float: right;
-    margin: 0;
-    top: -20px;
-    width: 1px;
-    height: 1px;
+    top: -40px;
+
+    width: 88px;
+    height: 176px;
+    margin: 0 0 -100%;
+
     overflow: visible;
+    background: url("../assets/img/beste-award.png") no-repeat center;
+    background-size: 88px 176px;
 }
 .award>img {
     width: 88px;
@@ -135,45 +132,59 @@ aside {
     font-weight: bold;
 }
 nav.vine-kind-menu {
-    display: flex;
+    display: block;
+    /*display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: space-between;
+    align-content: space-between;*/
 
     width: 100%;
     margin: 0;
-    padding: 4%;
+    padding: 4% 0;
+
+    font-size: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav.vine-kind-menu>div {
+    min-height: 2em;
+    width: 100%;
+    padding: 0 1em;
+    margin: 0 auto;
+
+    font-weight: bold;
+    font-size: 16px;
+}
+nav.vine-kind-menu label {
+    /*display: inline-flex;
+    flex-basis: 32%;*/
+    overflow: visible;
+    margin: 1% 0;
+
+    display: inline-block;
+    min-width: 33%;
+}
+nav.vine-kind-menu input[type="checkbox"] {
+    display: none;
+}
+nav.vine-kind-menu input[type="checkbox"]:checked+label>img {
+    background-color: #520929;
+}
+nav.vine-kind-menu label>img {
+    display: block;
+    margin: 0 auto;
+    padding: 1% 12%;
+    width: auto;
+    min-height: 55px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-}
-nav.vine-kind-menu>div {
-    min-height: 2em;
-    width: 100%;
-    margin: 0 auto;
-
-    font-weight: bold;
-}
-nav.vine-kind-menu label {
-    display: inline-flex;
-    flex-basis: 32%;
-
     border-radius: 10%;
-    margin: 0.5%;
-}
-nav.vine-kind-menu input[type="checkbox"] {
-    display: none;
-}
-nav.vine-kind-menu input[type="checkbox"]:checked+label {
-    background-color: #520929;
-}
-nav.vine-kind-menu label>img {
-    margin: 0 auto;
-    height: 100%;
-    min-width: 40px;
 }
 
 div.price-field {
@@ -323,42 +334,50 @@ aside>form>input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ *
 }
 
 article.vines {
+    position: relative;
     display: inline-block;
     width: 76%;
     margin: 0 0 0 1%;
 
-    font-size: 18px;
+    font-size: 0;
     font-family: Calibri, Arial, sans-serif;
+
+    vertical-align: middle;
+    overflow: hidden;
 }
 article.vines>h2 {
     font-weight: normal;
+    font-size: 30px;
 }
 article.vines>nav.vines-catalog {
+    display: inline-block;
     min-height: 50%;
-    width: 92%;
+    width: 90%;
 
-    font-size: 0;
     margin: 0 auto;
 }
-article.vines>nav.vines-catalog::after, article.vines>nav.vines-catalog::before {
-    width: 0;
+article.vines  .afterArrow,
+article.vines  .beforeArrow {
+    display: inline-block;
+    width: 5%;
     line-height: 200px;
-    vertical-align: middle;
+    vertical-align: top;
 
+    color: lightgrey;
     font-size: 36px;
     font-weight: bold;
     overflow: visible;
+
+    cursor: pointer;
 }
-article.vines>nav.vines-catalog::before {
-    float: left;
-    margin-left: -4%;
-    content: "←";
+article.vines  .afterArrow:hover,
+article.vines  .beforeArrow:hover {
+    color: purple;
 }
-article.vines>nav.vines-catalog::after {
-    float: right;
-    content: "→";
-}
-article.vines>nav.vines-catalog>a {
+.vines a {
+    /*position: relative;*/
+    overflow: visible;
+
     display: inline-block;
     width: 20%;
     min-height: 230px;
@@ -367,19 +386,26 @@ article.vines>nav.vines-catalog>a {
     text-align: center;
     background: url("../assets/pic/bottle.png") no-repeat center;
     background-size: auto 100%;
+
 }
-article.vines>nav.vines-catalog>a:hover {
+.vines a:hover {
 
     background: rgba(222,222,222,0);
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
-    background-image: url(../assets/pic/bottle.png) -moz-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
-    background-image: url(../assets/pic/bottle.png), -webkit-gradient(left top, left bottom, color-stop(0%, rgba(222,222,222,0)), color-stop(31%, rgba(235,230,235,0.31)), color-stop(35%, rgba(235,230,235,0.35)), color-stop(100%, rgba(235,230,235,1)));
-    background-image: url(../assets/pic/bottle.png), -webkit-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
-    background-image: url(../assets/pic/bottle.png), -o-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
-    background-image: url(../assets/pic/bottle.png), -ms-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
-    background-image: url(../assets/pic/bottle.png), linear-gradient(to bottom, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
+    background-image: url(../assets/pic/bottle.png),
+    -moz-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
+    background-image: url(../assets/pic/bottle.png),
+    -webkit-gradient(left top, left bottom, color-stop(0%, rgba(222,222,222,0)), color-stop(31%, rgba(235,230,235,0.31)), color-stop(35%, rgba(235,230,235,0.35)), color-stop(100%, rgba(235,230,235,1)));
+    background-image: url(../assets/pic/bottle.png),
+    -webkit-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
+    background-image: url(../assets/pic/bottle.png),
+    -o-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
+    background-image: url(../assets/pic/bottle.png),
+    -ms-linear-gradient(top, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
+    background-image: url(../assets/pic/bottle.png),
+    linear-gradient(to bottom, rgba(222,222,222,0) 0%, rgba(235,230,235,0.31) 31%, rgba(235,230,235,0.35) 35%, rgba(235,230,235,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#ebe6eb', GradientType=0 );
 }
 a>ul {
@@ -443,6 +469,7 @@ a:hover .show-by-hover {
 
 div.vine-description {
     padding: 1%;
+    font-size: 18px;
     border-radius: 15px;
 
     background: -moz-linear-gradient(top,  rgba(196,196,196,1) 0%, rgba(196,196,196,0.99) 1%, rgba(226,226,226,0.94) 6%, rgba(247,247,247,0.86) 14%, rgba(249,249,249,0) 100%); /* FF3.6+ */
@@ -669,13 +696,20 @@ div.slogan {
 .gainsboro-color-background {
     background-color: gainsboro;
 }
+a.non-displayed {
+    visibility: hidden;
+    width: 0;
+}
 /* Clearfix */
+header::after,
 body>section::after,
 footer>section::after,
 div.color-vine-data::after,
 div.vine-description>div:last-of-type::before,
 div.vine-description input[type="button"]::after,
 div.vine-description>div:last-of-type::after,
+article.vines .afterArrow::after,
+article.vines .beforeArrow::after,
 a .stars::after,
 footer>img::after {
     display: block;
